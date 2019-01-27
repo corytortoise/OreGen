@@ -1,0 +1,16 @@
+## Config File for OreGen
+---
+#There are currently 3 supported types of generators: Stone, Cobblestone, and Obsidian.
+#Format for blocks: "ID: Chance". You can use numerical or name ID, but both must be EXACTLY correct.
+#Chances are 1/{your amount}, so putting 100 as the chance means a 1% chance. Otherwise, the default blocks will be generated.
+#Multiple blocks may be chosen, but the last block in each section of the config will take priority. 
+#Ex: Coal_Ore and Iron_Ore could both be picked, but only Iron_Ore will be generated.
+Stone:
+  Coal_Ore: 100
+  Iron_Ore: 200
+  Gold_Ore: 300
+Cobblestone:
+  Coal_Ore: 150
+  Dirt: 300
+Obsidian:
+  Diamond_Block: 400

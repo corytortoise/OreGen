@@ -1,0 +1,6 @@
+name: OreGen
+author: corytortoise
+main: corytortoise\OreGen\Main
+version: "1.0.0"
+api: [3.4.0]
+description: Stone Generators can produce ores!
